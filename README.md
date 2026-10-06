@@ -1,41 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MCdonnalds</title>
-    <style>
-       body { 
-        font-family: sans-serif;
-        background-color: #FF2C2C;
-        text-align: center;
-        padding: 40px  20px
-    } 
-
-    .perfil {
-        max-width: 300px;
-        margin: 0 auto;
-        background: white;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba (0,0,0,0,1);
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> <h1>
+    ANA JULIA
+</h1>
     
-    .imagem-destaque {
-        width: 180px;
-        height: auto;
-        margin: 15px 0;
-    }
-    .botao {
-      display: block;
-      background-color: #FFC222;
-      color: white;
-      text-decoration: none;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 25px;
-      font-weight: bold;
-    }
+</body>
+</html>
 
-    .botao:hover {background-color: #LE3932;
+<style>
+    @media (max-width: 767px){
+        *{background-color: blue;}
+     h1{
+        color: azure;
+     }
     }
-    # atividade
+    @media (min-width: 768px){
+        *{background-color: pink;}
+        h1{
+        color: black;
+     }
+
+    }
+    @media (min-width: 1024px){
+        *{background-color: black;}
+        h1{
+        color: white;
+     }
+    }
+    @media (min-width: 1440px){
+        *{background-color: green;}
+        h1{
+        color: yellow;
+     }
+    }
+</style>
